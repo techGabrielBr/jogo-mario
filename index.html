@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Mini Game Mário</title>
+</head>
+<body>
+    <main>
+        <div class="descricao">
+            <h1>Mini Game Mário</h1>
+            <span>Evite que o personagem se choque com os blocos! Para pular basta clicar dentro da área de jogo</span>
+        </div>
+    
+        <div class="areaJogo">
+            <div class="personagem"></div>
+            <div class="bloco"></div>
+            <div class="bloco__inimigo"></div>
+            <div class="cenario"></div>
+            <div class="pontuacao__maior">
+                <span>Recorde:</span>
+                <span class="placar__maior">0</span>
+            </div>
+            <div class="pontuacao__atual">
+                <span>Score:</span>
+                <span class="placar__atual">0</span>
+            </div>
+            <div class="iniciar">
+                <span class="textoControle">Pronto para Começar ?</span>
+                <button type="button" class="bntJogo">Começar Jogo</button>
+            </div>
+        </div>
+    
+    </main>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
